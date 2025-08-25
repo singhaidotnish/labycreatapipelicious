@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bot_config"
+version = "0.1.0"
+description = "Configuration loader/validator for VFX bots"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "mypy", "black", "build"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

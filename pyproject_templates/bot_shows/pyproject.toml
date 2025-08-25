@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bot_shows"
+version = "0.1.0"
+description = "Show/site helpers: paths, naming, slates"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "mypy", "black", "build"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
