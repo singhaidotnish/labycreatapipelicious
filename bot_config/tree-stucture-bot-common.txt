@@ -1,0 +1,178 @@
+.
+├── bot_common
+│   ├── dev-requirements.txt
+│   ├── dodo.py
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── bot_common
+│   │   │   ├── constants.py
+│   │   │   ├── constants.pyc
+│   │   │   ├── context.py
+│   │   │   ├── context.pyc
+│   │   │   ├── exceptions.py
+│   │   │   ├── exceptions.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── utils.py
+│   │   │   ├── utils.pyc
+│   │   │   ├── yaml_resolver.py
+│   │   │   └── yaml_resolver.pyc
+│   │   └── bot_common.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       ├── __init__.py
+│       ├── test_bot_context.py
+│       └── test_yaml_resolver.py
+├── bot_config
+│   ├── dev-requirements.txt
+│   ├── dodo.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── bot_config
+│   │   │   ├── config.py
+│   │   │   ├── config.pyc
+│   │   │   ├── constants.py
+│   │   │   ├── constants.pyc
+│   │   │   ├── exceptions.py
+│   │   │   ├── exceptions.pyc
+│   │   │   ├── __init__.py
+│   │   │   └── __init__.pyc
+│   │   └── bot_config.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       ├── __init__.py
+│       └── test_config.py
+├── bot_dcc
+│   ├── dev-requirements.txt
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── bot_dcc
+│   │   │   ├── constants.py
+│   │   │   ├── constants.pyc
+│   │   │   ├── dcc.py
+│   │   │   ├── dcc.pyc
+│   │   │   ├── exceptions.py
+│   │   │   ├── exceptions.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── template.py
+│   │   │   └── template.pyc
+│   │   └── bot_dcc.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       └── test_bot_dcc.py
+├── bot_dispatcher
+│   ├── dev-requirements.txt
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── bot_dispatcher
+│   │   │   ├── dispatcher.py
+│   │   │   └── __init__.py
+│   │   └── bot_dispatcher.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       └── test_bot_dispatcher.py
+├── bot_folder_structure
+│   └── root
+│       ├── clients
+│       │   └── clientA
+│       ├── shows
+│       │   └── show01
+│       └── site
+│           └── main
+├── bot_nuke
+│   ├── dev-requirements.txt
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── bot_nuke
+│   │   │   ├── bot_nuke.py
+│   │   │   ├── constants.py
+│   │   │   └── __init__.py
+│   │   └── bot_nuke.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       └── test_bot_nuke.py
+├── bot_shows
+│   ├── dev-requirements.txt
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   └── src
+│       ├── bot_shows
+│       │   ├── constants.py
+│       │   ├── __init__.py
+│       │   ├── __init__.pyc
+│       │   ├── utils.py
+│       │   └── utils.pyc
+│       └── bot_shows.egg-info
+│           ├── dependency_links.txt
+│           ├── PKG-INFO
+│           ├── requires.txt
+│           ├── SOURCES.txt
+│           └── top_level.txt
+├── packager
+│   ├── dev-requirements.txt
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── setup_utils.py
+│   ├── setup_utils.pyc
+│   ├── src
+│   │   ├── packager
+│   │   │   ├── cli.py
+│   │   │   ├── cli.pyc
+│   │   │   ├── exceptions.py
+│   │   │   ├── exceptions.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __main__.py
+│   │   │   ├── packager.py
+│   │   │   └── packager.pyc
+│   │   └── Packager_Application.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       └── top_level.txt
+│   └── tests
+│       └── test_packager.py
+└── tree-stucture-bot-common.txt
+
+42 directories, 133 files
