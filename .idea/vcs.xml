@@ -2,13 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_common" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_config" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_dcc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_dispatcher" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_folder_structure" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_nuke" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/bot_shows" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/bot_config/packager" vcs="Git" />
   </component>
 </project>
