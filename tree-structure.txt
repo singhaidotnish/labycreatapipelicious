@@ -1,0 +1,51 @@
+.
+├── bot_config
+│   ├── bot_common
+│   │   ├── fs.py
+│   │   ├── __init__.py
+│   │   └── logging_utils.py
+│   ├── bot_config
+│   │   └── __init__.py
+│   ├── bot_dcc
+│   │   ├── __init__.py
+│   │   └── publish
+│   │       ├── api.py
+│   │       ├── __init__.py
+│   │       ├── runners.py
+│   │       └── schema.py
+│   ├── bot_dispatcher
+│   ├── bot_folder_structure
+│   │   └── templates.yml
+│   ├── bot_natron
+│   │   └── hooks
+│   │       ├── collectors
+│   │       ├── extractors
+│   │       ├── integrators
+│   │       └── validators
+│   ├── bot_shows
+│   │   └── MEGA
+│   │       └── project.yml
+│   ├── packager
+│   └── tree-stucture-bot-common.txt
+├── bot_monorepo_design.md
+├── pyproject_templates
+│   ├── bot_common
+│   │   └── pyproject.toml
+│   ├── bot_config
+│   │   └── pyproject.toml
+│   ├── bot_dcc
+│   │   └── pyproject.toml
+│   ├── bot_dispatcher
+│   │   └── pyproject.toml
+│   ├── bot_nuke
+│   │   └── pyproject.toml
+│   ├── bot_shows
+│   │   └── pyproject.toml
+│   └── packager
+│       └── pyproject.toml
+├── README.md
+├── scripts
+│   └── init_natron_publish_scaffold.sh
+└── tree-structure.txt
+
+25 directories, 23 files

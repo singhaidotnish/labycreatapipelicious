@@ -1,0 +1,7 @@
+publish_root: "/projects/MEGA/publish"
+work_root: "/projects/MEGA/work"
+
+nuke_script: "{work_root}/shots/{seq}/{shot}/natron/{task}/{shot}_{task}_v{version:03}.ntp"
+render_dir:  "{publish_root}/shots/{seq}/{shot}/comp/{task}/v{version:03}/"
+review_mov:  "{publish_root}/shots/{seq}/{shot}/review/comp/{shot}_v{version:03}.mp4"
+thumbnail:   "{publish_root}/shots/{seq}/{shot}/thumbs/{shot}_v{version:03}.jpg"
